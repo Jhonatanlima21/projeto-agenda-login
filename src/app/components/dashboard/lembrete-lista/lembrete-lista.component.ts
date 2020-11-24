@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy} from '@angular/core';
-import { Lembrete } from '../components/lembrete.model';
-import { LembreteService } from '../components/lembrete.service';
+import { Lembrete } from '../../lembrete.model';
+import { LembreteService } from '../../lembrete.service';
 import { Subscription, Observable } from 'rxjs';
 
 @Component({

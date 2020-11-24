@@ -29,6 +29,7 @@ import { AuthService } from "./shared/services/auth.service";
 
 
 // Imports angular material
+import { FormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
@@ -60,6 +61,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
     MatExpansionModule,
     MatProgressSpinnerModule,
     HttpClientModule,
+    FormsModule
   ],
   providers: [AuthService,LembreteService],
   bootstrap: [AppComponent]
